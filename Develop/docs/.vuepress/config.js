@@ -11,8 +11,26 @@ module.exports = {
         sidebar:[
             '/',
             {
+                title:'Communicate',
+                path:'/Communicate/',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    'Communicate/attitude.md',
+                ]
+            },
+            {
+                title:'UtilsTools',
+                path:'/UtilsTools/',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    'UtilsTools/tools.md',
+                ]
+            },
+            {
                 title:'Coding',
-                path:'/Coding/coding_index',
+                path:'/Coding/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
@@ -24,7 +42,7 @@ module.exports = {
             },
             {
                 title:'3D',
-                path: '/3D/3D_index.md',
+                path: '/3D/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
@@ -36,7 +54,7 @@ module.exports = {
             },
             {
                 title:'2D',
-                path: '/2D/2D_index.md',
+                path: '/2D/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
@@ -50,7 +68,7 @@ module.exports = {
 
         //  頂部導航欄
         nav: [
-            { text: '官網', link: 'https://shelterzone627.wixsite.com/shelter-zone' },
+            { text: '官網', link: 'https://shelter-zone.github.io/SHELTER-ZONE/' },
             { text: 'Github', link: 'https://github.com/SHELTER-ZONE' },
         ]
     }        
