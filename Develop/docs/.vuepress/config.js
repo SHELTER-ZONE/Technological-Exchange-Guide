@@ -68,8 +68,8 @@ module.exports = {
 
         //  頂部導航欄
         nav: [
-            { text: '官網', link: 'https://shelter-zone.github.io/SHELTER-ZONE/' },
-            { text: 'Github', link: 'https://github.com/SHELTER-ZONE' },
+            { text: 'SHELTER ZONE 官網', link: 'https://shelter-zone.github.io/SHELTER-ZONE/' },
+            { text: 'Github', link: 'https://github.com/SHELTER-ZONE/Technological-Exchange-Guide' },
         ]
     }        
 }
