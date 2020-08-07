@@ -17,6 +17,7 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                     'Communicate/attitude.md',
+                    'Communicate/psychic.md',
                 ]
             },
             {
